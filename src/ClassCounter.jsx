@@ -23,8 +23,8 @@ class ClassCounter extends Component {
     return (
       <div>
         <h1>Class Counter: {this.state.count}</h1>
-        <button style={{backgroundColor:'green', color:'white'}} onClick={this.increaseHandler}>increase</button>
-        <button style={{backgroundColor:'red', color:'white'}} onClick={this.decreaseHandler}>Decrease</button>
+        <button style={{backgroundColor:'green', color:'white'}} onClick={this.increaseHandler}>Increase</button>
+        <button style={{backgroundColor:'red', color:'white',marginLeft:10}} onClick={this.decreaseHandler}>Decrease</button>
       </div>
     )
   }
