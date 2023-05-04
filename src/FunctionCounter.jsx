@@ -6,8 +6,10 @@ const FunctionCounter = () => {
   return (
     <div>
         <h1>Functional Counter: {count.number}</h1>
-      <button style={{backgroundColor:"green", color:"white"}} onClick={()=>updateCount({number: count.number +1})}>Increase</button>
-      <button style={{backgroundColor:"red", color:"white",marginLeft:10}} onClick={()=>updateCount({number: count.number -1})}>Decrease</button>
+      <button style={{backgroundColor:"green", color:"white"}} onClick={()=>updateCount({number: count.number +1})}>Increase
+      </button>
+      <button style={{backgroundColor:"red", color:"white",marginLeft:10}} onClick={()=>updateCount({number: count.number -1})}>Decrease
+      </button>
 </div>
 );
 }
